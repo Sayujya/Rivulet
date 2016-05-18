@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Drinking Statistics">
+            <menu>
+                <item
+                    android:id="@+id/user_stats"
+                    android:icon="@drawable/ic_pie_chart_white_24dp"
+                    android:title="@string/user_stats_title" />
+                <item
+                    android:id="@+id/status"
+                    android:icon="@drawable/ic_trending_up_white_24dp"
+                    android:title="@string/status" />
+                <item
+                    android:id="@+id/history"
+                    android:icon="@drawable/ic_history_white_24dp"
+                    android:title="@string/history" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_white_24dp"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_info_white_24dp"
+                android:title="@string/about_title" />
+        </menu>
+    </item>
+
+</menu>
